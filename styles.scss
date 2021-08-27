@@ -28,6 +28,7 @@ body {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  padding-left: 10px;
 
   .color-picker {
     width: 100%;
@@ -65,7 +66,7 @@ body {
       border-radius: 1.2rem;
       font-size: 17px;
       transition: scale 0.3s;
-      border: 1px solid black;
+      border: 2px solid black;
 
       &:hover {
         background-color: black;
