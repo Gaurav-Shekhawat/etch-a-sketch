@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>etch-a-sketch</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="outer-container">
+      <div class="inner-container">
+        <div class="features">
+          <div class="color-picker">
+            <input type="color" />
+          </div>
+          <div class="style-picker">
+            <button class="black-white btn">Black and White</button>
+            <button class="grey-scale btn">GreyScale</button>
+            <button class="rainbow btn">Rainbow</button>
+            <button class="eraser btn">Eraser</button>
+          </div>
+          <div class="size-picker">
+            <div class="range-slider">
+              <input
+                type="range"
+                name="range-slider"
+                id="box-number-range    "
+              />
+            </div>
+            <div class="size-display"></div>
+          </div>
+        </div>
+        <div class="canvas-container">
+          <div class="canvas-heading">
+            <h1>Etch-a-sketch</h1>
+          </div>
+          <div class="canvas"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
